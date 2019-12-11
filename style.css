@@ -1,0 +1,150 @@
+body {
+    
+    background:url("bgimg.jpg") no-repeat 0px 0px;
+    background-size:cover;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.main h1{
+  font-size: 50px;
+  color: wheat;
+  padding: 1.5em 0;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+
+.main>p {
+    font-size: 25px;
+    color: khaki;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.demo {
+    width: 100%;
+    max-width: 960px;
+    margin: 100% auto;
+    text-align: center;
+    color: rgb(51, 33, 27);
+    height: 750px;
+    width: 600px;
+    margin: 100px auto;
+    background: blueviolet;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -moz-box-align: center;
+    font-family: 'Lora', serif;
+    border-block-color: rgb(90, 153, 61);
+  }
+
+.demo>h2 {
+    font-size: 30px;
+  }
+
+.register {
+    font-style: normal;
+    font-size-adjust: initial;
+    font-size: 20px;
+}
+
+.register input[type="text"],.register input[type="password"] {
+    width: 95%;
+    padding: 0.8em 0.8em;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    background: none;
+    font-weight: 500;
+    border: 1px solid rgba(186, 40, 23, 0.69);
+    font-family: 'Raleway', sans-serif;
+  }
+
+.sign-up {
+    padding: 1.5em 15;
+  }
+
+.sign-up input[type="reset"] {
+    float: left;
+    background: tomato;
+    padding: 0.8em 1.4em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.sign-up input[type="submit"] {
+    float: right;
+    background: tomato;
+    padding: 0.8em 1.5em;
+    color: #fff;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+    font-family: 'Raleway', sans-serif;
+  }
+
+.basic {
+    width: 100%;
+    max-width: 960px;
+    margin: 100% auto;
+    text-align: center;
+    color: rgb(51, 33, 27);
+    height: 330px;
+    width: 600px;
+    margin: 100px auto;
+    background:blueviolet;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -moz-box-align: center;
+    font-family: 'Lora', serif;
+    border-block-color: black;
+}
+
+.basic>h2 {
+    font-size: 30px;
+  }
+
+.facts {
+    font-style: normal;
+    font-size-adjust: initial;
+    font-size: 20px;
+}
+
+.facts input[type="text"],.facts input[type="password"] {
+    width: 95%;
+    padding: 0.8em 0.8em;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    background: none;
+    font-weight: 500;
+    border: 1px solid rgba(186, 40, 23, 0.69);
+    font-family: 'Raleway', sans-serif;
+  }
+
+.submit1 {
+    float: center;
+    padding: 1.2em 1.5em;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+  }
