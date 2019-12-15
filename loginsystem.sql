@@ -1,5 +1,3 @@
-
-
 CREATE TABLE users (
   fname varchar(255) NOT NULL,
   lname varchar(255) DEFAULT NULL,
