@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    align-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    color: lightgray;
+    
+}
+
+header {
+    font-size: large;
+    font-style: bold;
+    font-display: unset;
+    text-align: justify;
+    color: darkkhaki;
+}
+
+p {
+    color: darksalmon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: inherit;
+}
+
