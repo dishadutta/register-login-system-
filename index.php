@@ -27,7 +27,7 @@ $ret= mysqli_query($con,"SELECT * FROM users WHERE email='$useremail' and passwo
 $num=mysqli_fetch_array($ret);
 if($num>0)
 {
-$extra="welcome.php";
+$extra="welcome.html";
 $_SESSION['login']=$_POST['uemail'];
 $_SESSION['name']=$num['fname'];
 $host=$_SERVER['HTTP_HOST'];
